@@ -22,8 +22,8 @@ WITH cte1_imports AS (SELECT c.customer_id, c.company_name AS customer_name, c.r
                              (ROUND((quantity * unit_price) * (1 - discount))) AS revenue_after_discount, CONCAT(first_name,' ', last_name) AS full_name
                         FROM cte1_imports
                         WHERE region IS NOT NULL AND
-                              order_date >= '1996-01-01' AND order_date < '1996-12-31' AND
+                              order_date >= '1996-01-01' AND order_date <= '1996-12-31' AND
                               region NOT IN ('RJ', 'DF')
                       )
-                                              
+
 SELECT * FROM cte2_transform ;
