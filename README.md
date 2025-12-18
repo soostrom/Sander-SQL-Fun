@@ -14,5 +14,7 @@ On a high-level the technical steps were:
 Tableau Public link will be pasted here
 
 
+
 VS Code Overview:
-<img width="2559" height="1390" alt="image" src="https://github.com/user-attachments/assets/e1f1171f-f054-4509-a052-9fde169a0aa1" />
+Including created DB, SQL query and Github commit pushed online
+<img width="2559" height="1393" alt="image" src="https://github.com/user-attachments/assets/ad933565-6e02-4803-af72-ea02a1725070" />
